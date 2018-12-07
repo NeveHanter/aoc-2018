@@ -25,7 +25,6 @@ fn part_one() {
             }
 
             counter += buffer
-                .trim()
                 .parse::<i32>()
                 .expect(format!("Failed parsing integer from {} buffer", buffer).as_str());
         }
@@ -68,7 +67,6 @@ fn part_two() {
             }
 
             counter += buffer
-                .trim()
                 .parse::<i32>()
                 .expect(format!("Failed parsing integer from {} buffer", buffer).as_str());
 

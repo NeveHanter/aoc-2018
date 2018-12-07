@@ -1,0 +1,3 @@
+pub const BYTES_IN_KB: u64 = 1024;
+
+pub const COMMON_FILESYSTEM_BLOCK_SIZE: u64 = 4 * BYTES_IN_KB;
